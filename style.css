@@ -44,3 +44,35 @@ h1 span {
 h2 {
     font-size: 40px;
 }
+.dream-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-section {
+    background: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experiences-box {
+    border-left: 7px solid;
+    border-image: linear-gradient(lightsalmon,tomato);;
+    border-image-slice: 1;
+    box-shadow: 5px 7px 40px grey;
+    border-radius: 0px 5px 5px 0px;
+    height: 90%;
+}
+.experiences-box h2 {
+    font-weight: 400;
+}
+.experiences-box h3 {
+    color: orange;
+}
+.experiences-box:last-child {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+.footer-section {
+    text-align: center;
+}
