@@ -79,7 +79,7 @@ h2 {
 }
 @media screen and (max-width: 480px) {
     .half-width {
-        width: 100%;
+        width: 88%;
     }
     .dream-big {
         background-image: none;
