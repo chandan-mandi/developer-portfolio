@@ -77,3 +77,21 @@ h2 {
 .footer-section {
     text-align: center;
 }
+@media screen and (max-width: 480px) {
+    .half-width {
+        width: 100%;
+    }
+    .dream-big {
+        background-image: none;
+    }
+    .experience-section {
+        background-image: none;
+        
+    }
+    .experiences-box {
+        margin-bottom: 50px;
+    }
+    footer {
+        display: none;
+    }
+}
