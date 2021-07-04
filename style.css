@@ -40,7 +40,6 @@ h1 span {
 .half-width p {
     margin-top: 20px;
     margin-bottom: 20px;
-    overflow: hidden;
 }
 h2 {
     font-size: 40px;
@@ -62,6 +61,7 @@ h2 {
     box-shadow: 5px 7px 40px grey;
     border-radius: 0px 5px 5px 0px;
     height: 100%;
+    overflow: scroll;
 }
 .experiences-box h2 {
     font-weight: 400;
