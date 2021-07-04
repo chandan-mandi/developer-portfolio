@@ -40,6 +40,7 @@ h1 span {
 .half-width p {
     margin-top: 20px;
     margin-bottom: 20px;
+    overflow: hidden;
 }
 h2 {
     font-size: 40px;
